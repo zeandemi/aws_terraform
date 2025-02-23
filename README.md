@@ -8,7 +8,7 @@ Each private subnets has 2nodes with minimum of 2 EC2 instance within the cluste
 
 Create or update the kubeconfig for Amazon EKS. run "aws eks update-kubeconfig --region <region-code> --name <cluster-name>"
 
-Replace <region-code> with you respective region, and <cluster-name> with your cluster name
+Replace <region-code> with you respective region, and <cluster-name> with your cluster name.
 
 ======================= Kubernetes ===============================
 
