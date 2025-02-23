@@ -2,7 +2,9 @@
                                                                         Terraform AWS EKS
 ============= Terraform ========================================
 
-These eks cluster consists deployed nodes in the private subnets with access to the internet through the nat gateway provisioned in the public sunbets. 3 private subnets along with 3 public subnet in 3 different availabilty zones are provisioned in a unique eks_vpc. Each private subnets has 2nodes with minimum of 2 EC2 instance within the cluster for deployment of the pods. An illustration of the architecture is on .png file
+These eks cluster consists deployed nodes in the private subnets with access to the internet through the nat gateway provisioned in the public sunbets. 3 private subnets along with 3 public subnet in 3 different availabilty zones are provisioned in a unique eks_vpc. 
+
+Each private subnets has 2nodes with minimum of 2 EC2 instance within the cluster for deployment of the pods. An illustration of the architecture is on .png file
 
 Create or update the kubeconfig for Amazon EKS. run "aws eks update-kubeconfig --region <region-code> --name <cluster-name>"
 
