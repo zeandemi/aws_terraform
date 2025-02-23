@@ -10,4 +10,4 @@ Replace <region-code> with you respective region, and <cluster-name> with your c
 
 ======================= Kubernetes ===============================
 
-To test this infrastructure, run "kubectl apply -f " in the path where kubernetes files to deploy a simple application in the private subnet is saved and test. Link to simple kubernete code the test a voting app can be found there  https://github.com/zeandemi/votingAppKub_File 
+To test this infrastructure, run "kubectl apply -f " in the path where kubernetes files to deploy a simple application in the private subnet. Link to simple kubernete code the test a voting app can be found there  https://github.com/zeandemi/votingAppKub_File 
